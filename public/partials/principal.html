@@ -30,4 +30,6 @@
     ng-src="{{ foto.url }}"
     alt="{{ foto.titulo }}"
   />
+  <a class="btn btn-primary btn-block" href="fotos/edit/{{foto._id}}">Editar</a>
+  <meu-botao-perigo nome="Remover" acao="remover(foto)"></meu-botao-perigo>
 </meu-painel>
